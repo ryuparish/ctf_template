@@ -1,0 +1,15 @@
+SERVICE|USER|PASS|NOTES
+portal.php|R1ckRul3s|Wubbalubbadubdub|Found in HTML |
+
+
+
+Phrases:
+    Wubbalubbadubdub
+
+Notes:
+1. /assets page found with many pictures
+2. portal found at login.php (
+3. Reverse shelled the command after portal login
+4. 
+
+
