@@ -1,0 +1,26 @@
+Service/User/Pass/Comment
+tomcat/tomcat/s3cret/ Bruteforced default passwords with common tomcat passwords.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Findings:
+
+- Logged into manager page on tomcat and am now able to upload .war files to deploy.

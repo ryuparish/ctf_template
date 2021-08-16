@@ -1,0 +1,60 @@
+Service/User/Pass/Version/Comment
+Microsoft IIS///6.0/
+Front Page///5.0.2.6790
+_vti_inf.html///0.100/
+MicrosoftOfficeWebServer///5.0_Pub/
+
+
+
+
+
+
+
+
+Conclusion:
+    Metasploit shag. We just needed to run a known exploit, then use a suggestor to run another known exploit after we get a stable user using migrate. Then we was root access. Boring.
+
+
+
+
+
+
+
+
+
+
+
+
+Findings:
+
+    - Front Page Config:
+        FPVersion="5.0.2.6790"
+    	FPShtmlScriptUrl="_vti_bin/shtml.dll/_vti_rpc"
+    	FPAuthorScriptUrl="_vti_bin/_vti_aut/author.dll"
+    	FPAdminScriptUrl="_vti_bin/_vti_adm/admin.dll"
+    	TPScriptUrl="_vti_bin/owssvr.dll"
+
+	- Possibly a straight text exploit known for Microsoft IIS 6.0:
+		Attaching "/admin::$INDEX_ALLOCATION/index.php" to any arbitrary file to access it.
+
+	- Found exploitdb python3 script to exploit Microsoft IIS 6.0 version.
+
+	- Dirb Output
+		+ http://10.10.10.14/_private (CODE:403|SIZE:1529)                                                                                                                                                                                          
+		==> DIRECTORY: http://10.10.10.14/_vti_bin/                                                                                                                                                                                                 
+		+ http://10.10.10.14/_vti_bin/_vti_adm/admin.dll (CODE:200|SIZE:195)                                                                                                                                                                        
+		+ http://10.10.10.14/_vti_bin/_vti_aut/author.dll (CODE:200|SIZE:195)                                                                                                                                                                       
+		+ http://10.10.10.14/_vti_bin/shtml.dll (CODE:200|SIZE:96)                                                                                                                                                                                  
+		+ http://10.10.10.14/_vti_cnf (CODE:403|SIZE:1529)                                                                                                                                                                                          
+		+ http://10.10.10.14/_vti_log (CODE:403|SIZE:1529)                                                                                                                                                                                          
+		+ http://10.10.10.14/_vti_pvt (CODE:403|SIZE:1529)                                                                                                                                                                                          
+		+ http://10.10.10.14/_vti_txt (CODE:403|SIZE:1529)                                                                                                                                                                                          
+		+ http://10.10.10.14/aspnet_client (CODE:403|SIZE:218)                                                                                                                                                                                      
+		==> DIRECTORY: http://10.10.10.14/images/                                                                                                                                                                                                   
+		==> DIRECTORY: http://10.10.10.14/Images/                                                                                                                                                                                                   
+		                                                                                                                                                                                                                                            
+		---- Entering directory: http://10.10.10.14/_vti_bin/ ----
+		==> DIRECTORY: http://10.10.10.14/_vti_bin/_vti_aut/                                                                                                                                                                                        
+		http://10.10.10.14/_vti_txt                                      
+
+  Sadly, this was just another metasploit demonstration.

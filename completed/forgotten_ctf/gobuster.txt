@@ -1,0 +1,18 @@
+
+=====================================================
+Gobuster v2.0.1              OJ Reeves (@TheColonial)
+=====================================================
+[+] Mode         : dir
+[+] Url/Domain   : http://10.10.244.57/
+[+] Threads      : 10
+[+] Wordlist     : /opt/dirbuster/directory-list-2.3-medium.txt
+[+] Status codes : 200,204,301,302,307,403
+[+] Extensions   : txt,html,zip,php
+[+] Timeout      : 10s
+=====================================================
+=====================================================
+/index.html (Status: 200)
+/admin (Status: 301)
+/css (Status: 301)
+/js (Status: 301)
+/config (Status: 301)

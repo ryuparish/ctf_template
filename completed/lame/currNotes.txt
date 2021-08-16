@@ -1,0 +1,26 @@
+Service/User/Pass/Comment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Findings:
+- ssh key found in user .ssh file.
+- The above didn't matter. Found user file in a directory called makis.

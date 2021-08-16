@@ -1,0 +1,27 @@
+Service/User/Pass/Comment
+NibbleBlog///Found that the blog is running on this blog engine
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Findings:
+- Found known exploit for NibbleBlog
+    * Somehow was just supposed to brute force the password for the username admin. Boring and fucking stupid.
+- Exploited 

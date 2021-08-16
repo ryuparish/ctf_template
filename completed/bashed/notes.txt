@@ -1,0 +1,40 @@
+Service/User/Pass/Version/Comment
+Apache/Arrexel//2.4.18(Ubuntu)/
+Suppablog(Colorlib)///2018/
+shell/xalvas///Found user in github screenshot
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Findings:
+- Found shell webpage with dirb. 
+- Uploadable webpage found in /dev.
+- Uploaded reverse shell and then tried sudo -u scriptmanager
+    * got scriptmanager access
+- Scriptmanager can run a script in a scriptmanager-only file that runs as root.
+- Changed file to be a reverses shell, listened and the file sent a root shell.
+#PWNED
+
+
+
+Flags:
+user : 2c281f318555dbc1b856957c7147bfc1
+root : cc4f0afe3a1026d402ba10329674a8e2
