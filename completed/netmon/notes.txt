@@ -1,0 +1,28 @@
+Service/User/Pass/Version/Comment
+PRTG///18.1.37.13946/ Port open above 1000
+ftp/anonymous/na// Anonymous access enabled. Hoping for some credentials.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Findings:
+    - Login page available
+    - windows/http/prtg_authenticated_rce does not work without a username and a password
+        * This is an authenticated rce. We need to find some credentials. Time to look for a database of somesort.

@@ -1,2 +1,0 @@
-SERVICE|USER|PASS|NOTE
-jenkins|admin|admin|just guessed, ps exposed on the jenkins windows machin

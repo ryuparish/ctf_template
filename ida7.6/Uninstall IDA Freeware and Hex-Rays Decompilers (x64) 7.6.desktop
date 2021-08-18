@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Version=0.9.4
+Name=Uninstall IDA Freeware and Hex-Rays Decompilers (x64) 7.6
+Comment=Uninstall
+Icon=
+Exec=/home/ryuparish/ctf_template/idafree-7.6/uninstall
+Terminal=false
+Path=/home/ryuparish/ctf_template/idafree-7.6
