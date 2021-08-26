@@ -1,0 +1,25 @@
+Service/User/Pass/Version/Comment
+MSSQL///10.0.17763/nmap
+?/ARCHETYPE\sql_svc/M3g4c0rp123//Found in prod file in smbshare "backups"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Findings:
+    SMBOS - Windows 2019 Standard 6.3
