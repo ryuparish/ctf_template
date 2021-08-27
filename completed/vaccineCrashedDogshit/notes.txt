@@ -1,0 +1,26 @@
+Service/User/Pass/Version/Comment
+ftp///3.0.3/nmap
+ssh///8.0/nmap
+Apache(Ubuntu)///2.4.41/nmap
+postgres shell/postgres/P@s5w0rd!//Found in sqlmap after login
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Findings:
+    - Cookie with phpsessionid

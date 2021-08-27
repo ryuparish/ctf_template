@@ -1,0 +1,39 @@
+Service/User/Pass/Version/Comment
+Apache(Ubuntu)///2.4.49/Found in nmap
+ssh///7.6p1/Found in nmap
+Email/admin@megacorp.com//Website
+RMS/admin/MEGACORP_4dm1n!!(retarded)//Writeup
+RMS/john Tafcz///Through admin account: id = 8832
+RMS/peter qpic///id = 8832 
+RMS/tom rafol///id = 28832
+RMS/super admin///id = 86575
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Findings:
+    - OS type Linux.
+    HTB Sucks.
+    - Used writeup to figure out that we were somehow supposed to use a password from a previous box that I did not do.
+    - Then, we were to use burp to sniper an account id that works and then use that superuser to upload a reverse shell.
+    - Then, we needed to privesc by looking in an obscure file in the var/www directory that has a password.
+    - Then, we were supposed to use that user and see what group he was in. Then use a binary that only the group can use to
+    see the contents of root.txt. We were supposed to use strings to see what the binary was doing.

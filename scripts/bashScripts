@@ -1,0 +1,2 @@
+# For Getting all numbers from 1 to 100 in order
+    for i in `seq 1 100`; do echo $i; done
