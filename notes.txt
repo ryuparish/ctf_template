@@ -1,0 +1,28 @@
+Service/User/Pass/Version/Comment
+MS IIS///10.0/Website port 80
+MySQL///
+WordPress////Highlight Theme found with dirb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Findings:
+    - Found /wordpress
+    - Going to bruteforce passwords with hydra.
