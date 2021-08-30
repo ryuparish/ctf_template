@@ -1,0 +1,10 @@
+# Nmap 7.92 scan initiated Sat Aug 28 19:40:43 2021 as: nmap -sU -v -oN nmapUDP.txt 10.10.10.55
+Increasing send delay for 10.10.10.55 from 400 to 800 due to 11 out of 12 dropped probes since last increase.
+Nmap scan report for 10.10.10.55
+Host is up (0.13s latency).
+Not shown: 999 closed udp ports (port-unreach)
+PORT   STATE         SERVICE
+69/udp open|filtered tftp
+
+Read data files from: /usr/local/bin/../share/nmap
+# Nmap done at Sat Aug 28 20:01:15 2021 -- 1 IP address (1 host up) scanned in 1231.93 seconds

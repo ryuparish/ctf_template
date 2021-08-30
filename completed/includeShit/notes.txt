@@ -1,0 +1,28 @@
+Service/User/Pass/Version/Comment
+Apache/mike//2.4.29/Found in nmap
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Findings:
+    - Found where I can upload reverse shell in udp port (69).
+    - Used local file inclusion in url searching. 
+    - Trying to find a way to privesc.
