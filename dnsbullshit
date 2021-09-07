@@ -1,0 +1,10 @@
+Try doing this is DNS resolution is acting fucky on mac:
+    - add <ip address><SPACE or TAB><domain with no www> to:
+        * /etc/private/hosts
+        * /etc/hosts
+        * /etc/resolv.conf
+    - Flush DNS cache with:
+        * dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+    - Make sure you are not adding an additional "/" to the end of the
+    URL you are searching for in your browser.
+    

@@ -1,0 +1,28 @@
+Service/User/Pass/Version/Comment
+PHP///5.1.6/Burp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Findings:
+    - Palo Santo solutions tech.
+    - elastixSession Cookie:
+        * t32vip1umdc6to5tl9hskpqgt3
+    - Many ports open; smtp, ssl/http, ssh, rpcbind, imap, ssl/imap, pop3, mysql, http(2)

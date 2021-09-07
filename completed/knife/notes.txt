@@ -1,0 +1,26 @@
+Service/User/Pass/Version/Comment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Findings:
+    - 22(ssh), 80(web) open
+    - PHP 8.1.0-dev is being used 

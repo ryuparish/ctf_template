@@ -1,0 +1,24 @@
+Service/User/Pass/Version/Comment
+server/chris@bank.htb/!##HTBB4nkP4ssw0rd!##// Found in bank file on server
+server/root/!@#S3cur3P4ssw0rd!@#// Found in bank file on server
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Findings:
+    - .htb files uploaded will be executed as php files. (rev shell)
+    - reverse shell uploaded after mitm attack (Broken Access Control)

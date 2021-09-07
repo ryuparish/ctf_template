@@ -1,0 +1,15 @@
+# Dirsearch started Mon Sep  6 23:50:16 2021 as: /opt/dirsearch/dirsearch.py -u bank.htb -e php -f -w /opt/dirb2/wordlists/common.txt -t 20 -o dirsearch.txt
+
+200     2KB  http://bank.htb:80/assets/
+301   304B   http://bank.htb:80/assets    -> REDIRECTS TO: http://bank.htb/assets/
+403   281B   http://bank.htb:80/icons/
+200     1KB  http://bank.htb:80/inc/
+301   301B   http://bank.htb:80/inc    -> REDIRECTS TO: http://bank.htb/inc/
+302     7KB  http://bank.htb:80/index.php    -> REDIRECTS TO: login.php
+200     2KB  http://bank.htb:80/login.php
+302     0B   http://bank.htb:80/logout.php    -> REDIRECTS TO: index.php
+403   289B   http://bank.htb:80/server-status/
+403   288B   http://bank.htb:80/server-status
+302     3KB  http://bank.htb:80/support.php    -> REDIRECTS TO: login.php
+403   283B   http://bank.htb:80/uploads/
+301   305B   http://bank.htb:80/uploads    -> REDIRECTS TO: http://bank.htb/uploads/
