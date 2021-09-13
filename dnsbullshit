@@ -1,5 +1,5 @@
 Try doing this is DNS resolution is acting fucky on mac:
-    - add <ip address><SPACE or TAB><domain with no www> to:
+    - add <ip address><SPACE or TAB><domain with no www> to (CONSIDER ADDING .COM):
         * /etc/private/hosts
         * /etc/hosts
         * /etc/resolv.conf

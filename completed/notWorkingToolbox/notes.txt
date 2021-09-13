@@ -1,0 +1,26 @@
+Service/User/Pass/Version/Comment
+OS///Windows 7.7/ nmap
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Findings:
+    - Possible redirect for admin.megalogistic.com/organizationName=MegaLogistic Ltd/stateOrProvinceName=Some-State/countryName=GR
+    - smb open, 
