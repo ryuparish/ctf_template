@@ -1,0 +1,3 @@
+1. Trying a post request when the original was a GET. There are other request
+components you are probably missing that are not being sent and causing an 
+error or nothing to happen.

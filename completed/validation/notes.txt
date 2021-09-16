@@ -1,0 +1,27 @@
+Service/User/Pass/Version/Comment
+ssh////nmap
+php///7.4.23/ very old version found in header and burpsuite
+mysql/uhc/uhc-9qual-global-pw// Found in reverse shell
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Findings:
+    - 8080 port with bad gateway exposing nginx and php 7.4
+    - Shitty burpsuite sqli with php file injection then reverse shell.
+    - Found credentials to mysql database.

@@ -1,0 +1,26 @@
+Service/User/Pass/Version/Comment
+MariaDB////nmap
+php///7.3.27/nmap
+Windows///64/nmap
+Voting System/admin/@LoveIsInTheAir!!!!// SSRF
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Findings:
+    - Additional domains: www.example.com, staging.love.htb, LOVE,
+    - On staging.love.htb, found SSRF bug where I could request to see what was on forbidden page on port 5000
+        * found user and pass on page

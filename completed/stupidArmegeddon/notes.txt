@@ -1,6 +1,6 @@
 Service/User/Pass/Version/Comment
 Drupal///7/nmap
-
+mysql//// shell obtained
 
 
 
@@ -22,3 +22,22 @@ Drupal///7/nmap
 
 
 Findings:
+    - Shell obtained with known exploit with drupal 7.
+        * password to mysql database found
+		$databases = array (
+		  'default' => 
+		  array (
+		    'default' => 
+		    array (
+		      'database' => 'drupal',
+		      'username' => 'drupaluser',
+		      'password' => 'CQHEy@9M*m23gBVj',
+		      'host' => 'localhost',
+		      'port' => '',
+		      'driver' => 'mysql',
+		      'prefix' => '',
+		    ),
+		  ),
+		);
+   - Found table users in mysql after using the above password and username.
+   - Then found hashed password in that table for user brucetherealadmin.

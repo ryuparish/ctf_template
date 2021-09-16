@@ -1,0 +1,1 @@
+The openVPN is very shitty when it comes to opening multiple tunnels on accident and leaving a bunch of orphaned tunnels that cause connection fuckery and ruin your day. You have to turn your computer off and on to reset the bullshit tunnels.
