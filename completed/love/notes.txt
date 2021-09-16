@@ -24,3 +24,5 @@ Findings:
     - Additional domains: www.example.com, staging.love.htb, LOVE,
     - On staging.love.htb, found SSRF bug where I could request to see what was on forbidden page on port 5000
         * found user and pass on page
+    - Uploaded php as profile pic and allowed RCE for reverse shell.
+    - Found msi exploit with AlwaysEscalateInstallations
