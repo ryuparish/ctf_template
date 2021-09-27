@@ -1,0 +1,23 @@
+Service/User/Pass/Version/Comment
+mySQL/dev/devteam01// Found in nmap and dns resolver to "spectra.htb/testing/index.php", found credentials in config.php.save
+nginx///1.17.4/ nmap
+Wordpress/administrator, devteam@megabank.local/devteam01// Found through dns resolution, found credentials in config.php.save
+autologin/katie/SummerHereWeCome!!// lin_enum
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Finding:
+    - Used password found in mysql server to login to wordpress website. Found upload file section.

