@@ -1,0 +1,47 @@
+Service/User/Pass/Version/Comment
+HTML 5 Up CMS//// Site Footer
+nginx///1.14.2/ nmap
+mariaDB/// 10.3.27/ Found after exploiting the credentials found and put into ssh
+
+
+
+
+
+
+
+
+
+
+
+Credentials:
+    Credentials to the server are maildeliverer:Youve_G0t_Mail!
+    PleaseSubscribe!
+    "bob" <lol@test.com>
+    9516109
+    9516109@delivery.htb
+	"SqlSettings": {                                                                                                                                                                                                        
+        "DriverName": "mysql",                                                                                                                                                                                              
+        "DataSource": "mmuser:Crack_The_MM_Admin_PW@tcp(127.0.0.1:3306)/mattermost?charset=utf8mb4,utf8\u0026readTimeout=30s\u0026writeTimeout=30s",                                                                        
+        "DataSourceReplicas": [],                                                                                                                                                                                           
+        "DataSourceSearchReplicas": [],                                                                                                                                                                                     
+        "MaxIdleConns": 20,                                                                                                                                                                                                 
+        "ConnMaxLifetimeMilliseconds": 3600000,                                                                                                                                                                             
+        "MaxOpenConns": 300,                                                                                                                                                                                                
+        "Trace": false,                                                                                                                                                                                                     
+        "AtRestEncryptKey": "n5uax3d4f919obtsp1pw1k5xetq1enez",                                                                                                                                                             
+        "QueryTimeout": 30,                                                                                                                                                                                                 
+        "DisableDatabaseSearch": false                                                                                                                                                                                      
+    },
+    | dijg7mcf4tf3xrgxi5ntqdefma | 1608992692294 | 1609157893370 |        0 | root                             
+    | $2a$10$VM6EeymRxJ29r8Wjkr8Dtev0O.1STWb4.4ScG.anuu7v0EFJwgjjO | NULL     |             | root@delivery.htb
+
+
+
+Findings:
+    - Contact Us page gives away that there is a delivery.htb email address possible. Perhaps a site with that domain as well?
+    - MatterMost server for team-chat service is being used on the backend.
+    - Ticketing system is OSTicket. Creating an account with a non-gmail email allowed us to bypass the verification. 
+    - What to do next according to Ippsec: We need to look at our ticket, and see that anything sent to our generated email address (4964622@delivery.htb) will
+    be sent to the ticket. We can then create an account with our generated corporate email on mattermost and then verify from the ticket dashboard. This will give us
+    access to the matter most, where sensitive data is exposed.
+
